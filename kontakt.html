@@ -1,230 +1,101 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Kontakt | CaffePizzaRoma</title>
-        <meta name="description" content="Caffe Roma je Vaš najbolji izbor ukoliko želite kvalitetnu uslugu i još kvalitetniju hranu.">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <title>Caffe bar Roma</title>
+        <link rel="shortcut icon" href="img/icon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="Caffe Roma, pizza, pasta, tortilja, burito, palačinke, sendviči">
-        <meta name="author" content="Katarina Milićević">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-       <link rel="shortcut icon" type="image/png" href="img/faicon.png" />
-        <link rel="icon" href="img/1.jpg" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta charset="UTF-8"/>
+        <script src="https://kit.fontawesome.com/3b6146fca4.js" crossorigin="anonymous"></script>
+        <meta name="description" content="Gladni ste i treba vam brza i besplatna dostava najkvbalitetnije hrane? Mi smo tu za vas. Kontaktirajte nas i bicete odmah usluzeni."/>
+        <meta name="keywords" content="Kontakt, narucivanje, dostava, besplatno, brzo, kvalitetno"/>
+      </head>
     <body>
-        <!--HEADER POCETAK-->
-        <div class="header">
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-        <div class="logo">
-            <a class="navbar-brand" href="index.html"><b>Roma</b><span><b>Caffe</b></span></a>
+      <div class="row" id="nav">
+        <div class="col-lg-2 md-2 sm-2 xs-2" id="logo">
+            <img src="img/logo.jpg"/>
+        </div>
+        <div class="col-lg-10 md-4 sm-4 xs-4" id="nav1">
+    <nav class="navbar navbar-expand-lg " id="navigacija">
+     
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars , burger"></i> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" id="navi">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Početna <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="meni.html">Meni</a>
+            <a class="nav-item nav-link" href="kontakt.html">Kontakt</a>
+            <a class="nav-item nav-link" href="autor.html">O autoru</a>
           </div>
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Naslovna</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="meni.html">Meni</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Kontakt</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="oautoru.html" tabindex="-1" aria-disabled="true">O autoru</a>
-                  </li>
-              </ul>
+        </div>
+      </nav>
+    </div>
+      <div class="cleaner"></div>
       </div>
-        <div class="cleaner"></div>
-        <!--KRAJ HEDERA-->
-        <!---KONTAKT STRANA POCETAK-->
-        <div class="onamasve">
-            <div class="card mb-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.4283249298874!2d20.473435515048028!3d44.812837984689786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7abc9670a817%3A0xba278a401a5bb80d!2z0JTQvtC60YLQvtGA0LAg0JTRgNCw0LPQvtGB0LvQsNCy0LAg0J_QvtC_0L7QstC40ZvQsCAxNSwg0JHQtdC-0LPRgNCw0LQgMTEwMDA!5e0!3m2!1ssr!2srs!4v1594545876872!5m2!1ssr!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <div class="jumbotron jumbotron-fluid" id="jumbotron">
+            <div class="container" id="container2">
+              <h1 class="display-4"><span>Kontaktirajte nas</span></h1>
+              <p class="lead"><span>Za sve informacije možete nas kontaktirati na broj telefona ili putem ponuđene forme!</span></p>
+            </div>
+          </div>
+          <div class="container-fluid" id="roma">        
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb" id="navmeni">
+                <li class="breadcrumb-item" id="navli"><a href="index.html">Početna</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kontakt</li>
+              </ol>
+          </nav>
+          </div>
+          <div id="form1">
+          <form id="form">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Vaše ime (obavezno)</label>
+                <input class="form-control" type="text" placeholder="" required>
               </div>
-                <!--<div class="card-body">
-                  <h5 class="card-title">Kontakt</h5>
-                </div>-->
-                  <form>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress">Adresa</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress2">Adresa 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputCity">Grad</label>
-                        <input type="text" class="form-control" id="inputCity">
-                      </div>
-                      <div class="form-group col-md-4">
-                        <label for="inputState">Zemlja</label>
-                        <select id="inputState" class="form-control">
-                          <option selected>Choose...</option>
-                          <option>Srbija</option>
-                          <option>Hrvatska</option>
-                          <option>Crna Gora</option>
-                        </select>
-                      </div>
-                      <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Oznaci
-                        </label>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                  </form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email adresa (obavezno)</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" required>
               </div>
-              <div class="onamasve1">
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Adresa</h5>
-                  <p class="card-text">Doktora Dragoslava Popovića 15, Palilula, Beograd</p>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Vaša poruka</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+            <div id="btn">
+                <button type="button" class="btn btn-red"><span>Pošalji</span></button>
                 </div>
-              </div>
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Telefon</h5>
-                  <p class="card-text">060/213 451 1</p>
+          </form>
+          <div id="kontakt">
+                <p><span>Adresa</span></br>Doktora Dragoslava Popovića 15, Palilula, Beograd</p>
+                <p><span>Telefon</span></br>060 0 542 635</p>
+                <p><span>RADNO VREME</p></span>
+                <p><span>Radnim danima i subotom</span>
+                    <p>8:00 - 00:00</p>
+                    <p><span>Nedeljom</span></p>
+                        <p>10:00 - 23:00</p>
+          </div>
+          <div class="cleaner"></div>
+        </div>
+        <div class="container-fluid" id="dostava">
+            <div id="n2">
+                <div id="btn">
+                <button type="button" class="btn btn-red"><span>BESPLATNA DOSTAVA!</span></button>
                 </div>
-              </div>
-              
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Radno vreme</h5>
-                  <p class="card-text">Radnim danima i subotom</br>
-
-                    8:00 - 00:00</br>
-                    
-                    Nedeljom</br>
-                    
-                    10:00 - 23:00</p>
+              <div id="nesto">
+                <span><p>060 0 521 436</p></span>
                 </div>
-              </div>
+                
+                <div class="cleaner"></div>
             </div>
         </div>
-       <!--POCETAK GMAIL-->
-    <div class="infosve2">
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Sve zamerke i kritike pisite nam na:</h5>
-            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" class="btn btn-primary">caffebarroma@gmail.com</a>
-          </div>
+    </div>
+      <div class="row" id="footer">
+        <div class="col-lg-3" id="copyright">
+          <p>&copy Katarina Milićević, 57/19</p>
         </div>
       </div>
-      <!--KRAJ GMAIL-->
-      <!--NOVI FUTER-->
-      <div class="svefuter">
-        <footer class="page-footer font-small blue pt-4">
-  
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-  
-        <!-- Grid row -->
-          <div class="row">
-  
-            <!-- Grid column -->
-          <div class="col-md-6 mt-md-0 mt-3">
-  
-        <!-- Content -->
-              <h5 class="text-uppercase">CAFFEPIZZAROMA</h5>
-              <p>Besplatna dostava za Beograd</p>
-  
-          </div>
-          <!-- Grid column -->
-  
-            <hr class="clearfix w-100 d-md-none pb-3">
-  
-          <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-  
-            <!-- Links -->
-            <h5 class="text-uppercase">Kontakt</h5>
-  
-            <ul class="list-unstyled">
-              <li>
-                <a href="kontakt.html">>060/213 451 1</a>
-              </li>
-              <!--<li>
-                <a href="#!">Mijatovih njiva 20</a>
-              </li>
-              <li>
-                <a href="#!"></a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>-->
-            </ul>
-  
-          </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-  
-        <!-- Links -->
-        <h5 class="text-uppercase">Email</h5>
-  
-        <ul class="list-unstyled">
-          <li>
-            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new">> vlajkovic.1997@gmail.com</a>
-          </li>
-          <!--<li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>-->
-        </ul>
-  
-            </div>
-      <!-- Grid column -->
-  
-          </div>
-    <!-- Grid row -->
-  
-      </div>
-      <!-- Footer Links -->
-  
-      <!-- Copyright -->
-      <div class="ufuter">
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href="index.html"> CaffePizzaRoma</a>
-        </div>
-      </div>
-        <!-- Copyright -->
-  
-        </footer>
-      </div>
-        <!-- KRAJ NOVOG Footer -->
     </body>
 </html>
